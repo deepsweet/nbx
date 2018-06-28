@@ -1,0 +1,14 @@
+{
+  "name": "nbx",
+  "version": "0.1.0",
+  "description": "Execute package binaries",
+  "keywords": "npm, bin, cli",
+  "homepage": "https://github.com/deepsweet/nbx",
+  "repository": "deepsweet/nbx",
+  "author": "Kir Belevich <kir@belevi.ch> (https://twitter.com/deepsweet)",
+  "license": "MIT",
+  "files": [
+    "nbx.sh"
+  ],
+  "bin": "nbx.sh"
+}
