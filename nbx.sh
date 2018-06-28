@@ -13,11 +13,6 @@ if [ $# -eq 0 ]; then
   exit 1
 fi
 
-if [ $(expr "$1" : "^[^a-zA-Z_]*$") -gt 0 ]; then
-  echo 'Binary name should contain only letters or underscore'
-  exit 1
-fi
-
 BIN_FILE="$BIN_DIR""$1"
 
 if [ ! -h "$BIN_FILE" ]; then
