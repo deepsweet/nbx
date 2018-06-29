@@ -1,6 +1,6 @@
 # nbx
 
-[![npm](https://img.shields.io/npm/v/nbx.svg?style=flat-square)](https://www.npmjs.com/package/nbx)
+[![npm](https://img.shields.io/npm/v/nbx.svg?style=flat-square)](https://www.npmjs.com/package/nbx) [![shellcheck](https://img.shields.io/travis/deepsweet/nbx/master.svg?label=shellcheck&style=flat-square)](https://travis-ci.org/deepsweet/nbx)
 
 Execute package binaries.
 
