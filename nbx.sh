@@ -20,4 +20,6 @@ if [ ! -h "$BIN_FILE" ]; then
   exit 1
 fi
 
-exec "$BIN_FILE" "${@:2}"
+shift
+
+exec "$BIN_FILE" "$@"
