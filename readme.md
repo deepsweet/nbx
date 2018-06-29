@@ -6,7 +6,8 @@ Execute package binaries.
 
 * `yarn <command>` is a mess because it's trying to resolve a target from 3 (three) different places: yarn internal commands, npm scripts and `./node_modules/.bin/`
 * `npx <command>` is doing too much, like checking in `$PATH` or autoinstalling a package if it's not found
-* shell aliases are nice but not installable/shareable (?)
+* `./node_modules/.bin/` in `$PATH` is very implicit and even wider guess than `yarn <command>`
+* shell aliases/functions are nice but not installable/shareable (?)
 * `./node_modules/.bin/<command>` every time is just too verbose
 
 ## Install
