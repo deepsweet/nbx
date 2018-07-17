@@ -3,7 +3,7 @@
 BIN_DIR='./node_modules/.bin/'
 
 if [ ! -d "$BIN_DIR" ]; then
-  echo "\"$BIN_DIR\" directory is not found"
+  echo "$BIN_DIR"' directory is not found'
   exit 1
 fi
 
@@ -16,7 +16,7 @@ fi
 BIN_FILE="$BIN_DIR""$1"
 
 if [ ! -h "$BIN_FILE" ]; then
-  echo "\"$BIN_FILE\" is not found"
+  echo "$BIN_FILE"' is not found'
   exit 1
 fi
 
