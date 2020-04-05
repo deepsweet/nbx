@@ -15,7 +15,7 @@ fi
 BIN_FILE="$BIN_DIR$1"
 
 if [ ! -h "$BIN_FILE" ]; then
-  echo "$BIN_FILE is not found"
+  echo "$BIN_FILE is not found" 1>&2
   exit 1
 fi
 
